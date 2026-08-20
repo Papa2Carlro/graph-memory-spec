@@ -1,4 +1,236 @@
 {
+  "DECISION_REGISTRY.md": {
+    "path": "DECISION_REGISTRY.md",
+    "title": "Decision Registry",
+    "status": "",
+    "layer": "other",
+    "source_class": "documentation",
+    "source_role": "docs_tree",
+    "package_scope": null,
+    "authored": "human",
+    "canonicality": 1.0,
+    "workspace_rel": "DECISION_REGISTRY.md",
+    "canonical_path": "DECISION_REGISTRY.md",
+    "first_paragraph": "**Version:** 1.0 **Date:** 2026-08-20 **Status:** Registry of accepted architectural decisions",
+    "toc": [
+      {
+        "level": 1,
+        "title": "Decision Registry"
+      },
+      {
+        "level": 2,
+        "title": "Purpose"
+      },
+      {
+        "level": 2,
+        "title": "ADR-001: Core vs Product Separation"
+      },
+      {
+        "level": 2,
+        "title": "ADR-002: File Format - .gmem vs .cgraph"
+      },
+      {
+        "level": 2,
+        "title": "ADR-003: Two-Level MCP Architecture"
+      },
+      {
+        "level": 2,
+        "title": "ADR-004: Graph Language Human-First Philosophy"
+      },
+      {
+        "level": 2,
+        "title": "ADR-005: Event Sourcing Model"
+      },
+      {
+        "level": 2,
+        "title": "ADR-006: Portability Requirements"
+      },
+      {
+        "level": 2,
+        "title": "ADR-007: Human Context Layer"
+      },
+      {
+        "level": 2,
+        "title": "ADR-008: Agent Permission Model"
+      },
+      {
+        "level": 2,
+        "title": "ADR-009: Graph Commit Model"
+      },
+      {
+        "level": 2,
+        "title": "ADR-010: Rules vs Workflows Separation"
+      },
+      {
+        "level": 2,
+        "title": "ADR-011: Repo Structure Proposal"
+      },
+      {
+        "level": 2,
+        "title": "Registry Notes"
+      },
+      {
+        "level": 3,
+        "title": "Decision Status Definitions"
+      },
+      {
+        "level": 3,
+        "title": "Ownership"
+      },
+      {
+        "level": 3,
+        "title": "Source Document Policy"
+      },
+      {
+        "level": 3,
+        "title": "Review Cycle"
+      }
+    ],
+    "must_lines": [
+      "Summary:** Graph files must be portable between CareerGraph installations. File format self-contained.",
+      "All decisions in this registry are owned by respective repositories. Updates must be coordinated with owners."
+    ],
+    "char_count": 7981
+  },
+  "DOCUMENTATION_MIGRATION_PLAN.md": {
+    "path": "DOCUMENTATION_MIGRATION_PLAN.md",
+    "title": "Documentation Migration Plan",
+    "status": "",
+    "layer": "other",
+    "source_class": "documentation",
+    "source_role": "docs_tree",
+    "package_scope": null,
+    "authored": "human",
+    "canonicality": 1.0,
+    "workspace_rel": "DOCUMENTATION_MIGRATION_PLAN.md",
+    "canonical_path": "DOCUMENTATION_MIGRATION_PLAN.md",
+    "first_paragraph": "**Version:** 1.0 **Date:** 2026-08-20 **Status:** Planning",
+    "toc": [
+      {
+        "level": 1,
+        "title": "Documentation Migration Plan"
+      },
+      {
+        "level": 2,
+        "title": "Purpose"
+      },
+      {
+        "level": 2,
+        "title": "Migration Principles"
+      },
+      {
+        "level": 2,
+        "title": "Migration Matrix"
+      },
+      {
+        "level": 3,
+        "title": "ADRs → graph-memory-spec"
+      },
+      {
+        "level": 3,
+        "title": "Language Design → graph-memory-language"
+      },
+      {
+        "level": 3,
+        "title": "Core Architecture → graph-memory-core"
+      },
+      {
+        "level": 3,
+        "title": "MCP Design → graph-memory-mcp"
+      },
+      {
+        "level": 3,
+        "title": "CLI → graph-memory-cli"
+      },
+      {
+        "level": 3,
+        "title": "Product Documentation → careerhub"
+      },
+      {
+        "level": 3,
+        "title": "Standards → All Repos"
+      },
+      {
+        "level": 2,
+        "title": "Historical Versions → Archive"
+      },
+      {
+        "level": 2,
+        "title": "Migration Steps"
+      },
+      {
+        "level": 3,
+        "title": "Phase 1: Spec Repository"
+      },
+      {
+        "level": 3,
+        "title": "Phase 2: Core Repository"
+      },
+      {
+        "level": 3,
+        "title": "Phase 3: Language Repository"
+      },
+      {
+        "level": 3,
+        "title": "Phase 4: MCP Repository"
+      },
+      {
+        "level": 3,
+        "title": "Phase 5: CareerHub Cleanup"
+      },
+      {
+        "level": 2,
+        "title": "Dependency Matrix"
+      },
+      {
+        "level": 2,
+        "title": "Risks"
+      },
+      {
+        "level": 2,
+        "title": "Acceptance Criteria"
+      }
+    ],
+    "must_lines": [
+      "1. **Link rot** — Documents reference each other, migration must update paths",
+      "2. **Historical loss** — Archive must preserve all versions"
+    ],
+    "char_count": 9071
+  },
+  "ext/pkg/root/README.md": {
+    "path": "ext/pkg/root/README.md",
+    "title": "Graph Memory Specification",
+    "status": "",
+    "layer": "process",
+    "source_class": "package_docs",
+    "source_role": "root_readme",
+    "package_scope": "root",
+    "authored": "human",
+    "canonicality": 0.7,
+    "workspace_rel": "README.md",
+    "canonical_path": "README.md",
+    "first_paragraph": "Formal specification for Graph Memory ecosystem.",
+    "toc": [
+      {
+        "level": 1,
+        "title": "Graph Memory Specification"
+      },
+      {
+        "level": 2,
+        "title": "Purpose"
+      },
+      {
+        "level": 2,
+        "title": "Status"
+      },
+      {
+        "level": 2,
+        "title": "Structure"
+      }
+    ],
+    "must_lines": [],
+    "char_count": 454
+  },
   "ext/config/project-mcp-pin.md": {
     "path": "ext/config/project-mcp-pin.md",
     "title": "Config truth — project_mcp_pin",
