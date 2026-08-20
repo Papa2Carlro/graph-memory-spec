@@ -1,0 +1,19 @@
+{
+  "fingerprint": "e3ee49d847b3993e",
+  "built_at": "2026-08-20T03:39:52.736707+00:00",
+  "workspace": "/Users/maksympryimak/graph-memory/graph-memory-spec",
+  "docs_root": "/Users/maksympryimak/graph-memory/graph-memory-spec/Docs",
+  "file_count": 1,
+  "chunk_count": 2,
+  "route_count": 0,
+  "map_section_count": 0,
+  "symbol_count": 0,
+  "code_path_count": 0,
+  "canonical_home_count": 0,
+  "link_count": 0,
+  "source_counts": {
+    "documentation": 0,
+    "config_truth": 1
+  },
+  "extra_source_count": 1
+}

@@ -1,0 +1,28 @@
+{
+  "ext/config/project-mcp-pin.md": {
+    "path": "ext/config/project-mcp-pin.md",
+    "title": "Config truth — project_mcp_pin",
+    "status": "",
+    "layer": "process",
+    "source_class": "config_truth",
+    "source_role": "project_mcp_pin",
+    "package_scope": null,
+    "authored": "human",
+    "canonicality": 0.9,
+    "workspace_rel": ".cursor/mcp.json",
+    "canonical_path": ".cursor/mcp.json",
+    "first_paragraph": "workspace_rel: `.cursor/mcp.json` source_class: `config_truth` source_role: `project_mcp_pin`",
+    "toc": [
+      {
+        "level": 1,
+        "title": "Config truth — project_mcp_pin"
+      },
+      {
+        "level": 2,
+        "title": "Doc Hub pin notes"
+      }
+    ],
+    "must_lines": [],
+    "char_count": 742
+  }
+}
